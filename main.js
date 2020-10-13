@@ -4,7 +4,7 @@ $(document).ready(function () {
   });
 
   $.getJSON(
-    'http://api.openweathermap.org/data/2.5/forecast?id=1835848&APPID=13cdeba27c6fb2e13ec8c19ec1410278&units=metric&lang=kr',
+    'https://api.openweathermap.org/data/2.5/forecast?id=1835848&APPID=13cdeba27c6fb2e13ec8c19ec1410278&units=metric&lang=kr',
     function (data) {
       let seoul_tempt = data.list[0].main.temp;
       let seoul_lowtemp = data.list[0].main.temp_min;
@@ -18,7 +18,7 @@ $(document).ready(function () {
   );
 
   $.getJSON(
-    'http://api.openweathermap.org/data/2.5/forecast?id=1838524&APPID=13cdeba27c6fb2e13ec8c19ec1410278&units=metric&lang=kr',
+    'https://api.openweathermap.org/data/2.5/forecast?id=1838524&APPID=13cdeba27c6fb2e13ec8c19ec1410278&units=metric&lang=kr',
     function (data) {
       let busan_tempt = data.list[0].main.temp;
       let busan_lowtemp = data.list[0].main.temp_min;
@@ -32,7 +32,7 @@ $(document).ready(function () {
   );
 
   $.getJSON(
-    'http://api.openweathermap.org/data/2.5/forecast?id=1846266&APPID=13cdeba27c6fb2e13ec8c19ec1410278&units=metric&lang=kr',
+    'https://api.openweathermap.org/data/2.5/forecast?id=1846266&APPID=13cdeba27c6fb2e13ec8c19ec1410278&units=metric&lang=kr',
     function (data) {
       let jeju_tempt = data.list[0].main.temp;
       let jeju_lowtemp = data.list[0].main.temp_min;
