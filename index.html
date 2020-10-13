@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/400289e08c.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="./main.js"></script>
@@ -11,6 +12,17 @@
   </head>
   <body>
     <div class="navbar">
+      <ul class="navbar_menu">
+        <li class="navbar_menu_item">추천 레포츠</li>
+        <li class="navbar_menu_item">지역별 레포츠</li>
+        <li class="navbar_menu_item">종류별 레포츠</li>
+        <li class="navbar_menu_item">중고거래</li>
+        <li class="navbar_menu_item">커뮤니티</li>
+        <li class="navbar_menu_item">공지사항</li>
+      </ul>
+      <div class="navbar_menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
       <div class="navbar_login">
         <li class="navbar_login_item"><a href="#">회원 로그인</a></li>
         <li class="navbar_login_item"><a href="#">업체 로그인</a></li>
@@ -45,5 +57,13 @@
         </div>
       </div>
     </div>
+    <script>    
+      const toggleBtn = document.querySelector(".navbar_menu-btn");
+      const menu = document.querySelector(".navbar_menu");
+
+      toggleBtn.addEventListener("click", () => {
+      menu.classList.toggle("active");
+      });
+    </script>
   </body>
 </html>

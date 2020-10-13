@@ -1,5 +1,8 @@
+/* 반응형으로 바꿀시 수정해야함 */
+
 * {
   margin: 0;
+  padding: 0;
   font-family: 'Malgun Gothic', sans-serif;
 }
 
@@ -51,7 +54,6 @@ li {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* z-index: 2; */
 }
 
 .city {
@@ -77,6 +79,48 @@ li {
   z-index: 10;
 }
 
+.navbar_menu {
+  display: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  width: 20vw;
+  height: 100vh;
+  top: 0;
+  text-align: center;
+  z-index: 1;
+}
+
+.navbar_menu_item {
+  color: #bdbdbd;
+  padding-top: 80px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.navbar_menu_item:hover {
+  color: white;
+  transition: all 400ms ease;
+}
+
+.navbar_menu-btn {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  z-index: 1;
+  color: #bdbdbd;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.navbar_menu-btn:hover {
+  color: white;
+  transition: all 400ms ease;
+}
+
+.navbar_menu.active {
+  display: block;
+}
+
 .navbar_login {
   display: flex;
   position: absolute;
@@ -95,4 +139,5 @@ li {
 .navbar_login_item:hover {
   border-color: white;
   background-color: rgba(255, 255, 255, 0.1);
+  transition: all 400ms ease;
 }
