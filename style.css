@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  font-family: 'Malgun Gothic', sans-serif;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.cover {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/img/16.png');
+  position: absolute;
+  z-index: 1;
+}
+
+.bg1 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/img/seoul.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+.bg2 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/img/busan.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+.bg3 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/img/jeju.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bx-controls {
+  display: none;
+}
+
+.contents {
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
