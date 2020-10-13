@@ -12,7 +12,7 @@ body {
 .cover {
   width: 100vw;
   height: 100vh;
-  background-image: url('/img/16.png');
+  background-image: url('./img/16.png');
   position: absolute;
   z-index: 1;
 }
@@ -20,21 +20,21 @@ body {
 .bg1 {
   width: 100vw;
   height: 100vh;
-  background-image: url('/img/seoul.jpeg');
+  background-image: url('./img/seoul.jpeg');
   background-size: cover;
   background-position: center;
 }
 .bg2 {
   width: 100vw;
   height: 100vh;
-  background-image: url('/img/busan.jpeg');
+  background-image: url('./img/busan.jpeg');
   background-size: cover;
   background-position: center;
 }
 .bg3 {
   width: 100vw;
   height: 100vh;
-  background-image: url('/img/jeju.jpeg');
+  background-image: url('./img/jeju.jpeg');
   background-size: cover;
   background-position: center;
 }
