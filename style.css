@@ -52,3 +52,18 @@ body {
   transform: translate(-50%, -50%);
   z-index: 2;
 }
+
+.city {
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+
+.tempt {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.weather {
+  margin-top: 20px;
+}
